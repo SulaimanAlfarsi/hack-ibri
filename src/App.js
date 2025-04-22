@@ -5,6 +5,8 @@ import Navbar from './components/Navigation';
 import RecommendedProducts from './components/RecommendedProducts';
 import SpringPlantingCard from './components/SpringPlantingCard';
 import Features from './components/Features';
+import RecentDiagnoses from './components/RecentDiagnoses ';
+import Footer from './components/Footer ';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       <SpringPlantingCard/>
       <CropDiagnosisCard/>
       <Features/>
+      <RecentDiagnoses/>
+      <Footer/>
     </div>
   );
 }
