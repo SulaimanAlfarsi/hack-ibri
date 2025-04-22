@@ -32,7 +32,7 @@ const Navbar = () => {
             >
               <Menu size={24} />
             </button>
-            <h1 className="text-2xl font-bold text-green-600">ZIRATECH</h1>
+            <h1 className="text-2xl font-bold text-green-600">AgroTech</h1>
           </div>
 
           {/* Center Links - Desktop */}
