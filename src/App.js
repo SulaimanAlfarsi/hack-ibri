@@ -1,25 +1,19 @@
 
-import CardSection from './components/CardSection';
-import CropDiagnosisCard from './components/CropDiagnosisCard ';
-import Navbar from './components/Navigation';
-import RecommendedProducts from './components/RecommendedProducts';
-import SpringPlantingCard from './components/SpringPlantingCard';
-import Features from './components/Features';
-import RecentDiagnoses from './components/RecentDiagnoses ';
-import Footer from './components/Footer ';
+import Home from './components/Home';
+
+import { Routes, Route } from "react-router-dom";
+import DiagnoseCrop from './components/pages/DiagnoseCrop';
 
 function App() {
   return (
-    <div>
-      <Navbar />
-      <CardSection/>
-      <RecommendedProducts/>
-      <SpringPlantingCard/>
-      <CropDiagnosisCard/>
-      <Features/>
-      <RecentDiagnoses/>
-      <Footer/>
-    </div>
+    <>
+    {/* Use only <Routes> without <Router> */}
+    <Routes>
+    <Route path="/" element={<Home />} />
+    <Route path="/diagnose" element={<DiagnoseCrop />} />
+
+    </Routes>
+    </>
   );
 }
 
