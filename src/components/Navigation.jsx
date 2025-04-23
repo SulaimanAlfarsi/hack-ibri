@@ -12,6 +12,8 @@ const Navbar = () => {
     { name: 'Diagnose Crop', path: '/diagnose' },
     { name: 'Store', path: '/storepage' },
     { name: 'Learning', path: '/learning' },
+    { name: 'Waste Collection', path: '/learning' },
+
   ];
 
   const sidebarVariants = {
