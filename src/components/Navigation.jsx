@@ -8,12 +8,11 @@ const Navbar = () => {
 
   const navLinks = [
     { name: 'Home', path: '/' },
-    { name: 'My Dashboard', path: '/dashboard' },
+    { name: 'Dashboard', path: '/dashboard' },
     { name: 'Diagnose Crop', path: '/diagnose' },
     { name: 'Store', path: '/storepage' },
     { name: 'Learning', path: '/learning' },
-    { name: 'Waste Collection', path: '/learning' },
-
+    { name: 'Waste Collection', path: '/waste-collection' },
   ];
 
   const sidebarVariants = {
