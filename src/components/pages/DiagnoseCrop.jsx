@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
 import { FaUpload, FaHistory, FaChartPie ,FaArrowRight} from "react-icons/fa";
 import { useDropzone } from "react-dropzone";
-import tomatoImage from '../../assets/tomato.jpg';
-import cucumberImage from '../../assets/tomato.jpg';
-import pepperImage from '../../assets/tomato.jpg';
+import tomatoImage from '../../assets/apple.jpg';
+import cucumberImage from '../../assets/corn.jpg';
+import pepperImage from '../../assets/cucumber.webp';
 import strawberryImage from '../../assets/tomato.jpg';
 import Navbar from "../Navigation";
 import Footer from "../Footer ";
