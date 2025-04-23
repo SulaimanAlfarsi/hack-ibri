@@ -8,10 +8,10 @@ const Navbar = () => {
 
   const navLinks = [
     { name: 'Home', path: '/' },
-    { name: 'Diagnose Crop', path: '/diagnose' },
-    { name: 'Store', path: '/store' },
-    { name: 'Learning', path: '/learning' },
     { name: 'My Dashboard', path: '/dashboard' },
+    { name: 'Diagnose Crop', path: '/diagnose' },
+    { name: 'Store', path: '/storepage' },
+    { name: 'Learning', path: '/learning' },
   ];
 
   const sidebarVariants = {
