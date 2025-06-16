@@ -8,10 +8,11 @@ const Navbar = () => {
 
   const navLinks = [
     { name: 'Home', path: '/' },
+    { name: 'Dashboard', path: '/dashboard' },
     { name: 'Diagnose Crop', path: '/diagnose' },
-    { name: 'Store', path: '/store' },
+    { name: 'Store', path: '/storepage' },
     { name: 'Learning', path: '/learning' },
-    { name: 'My Dashboard', path: '/dashboard' },
+    { name: 'Waste Collection', path: '/waste-collection' },
   ];
 
   const sidebarVariants = {
@@ -32,7 +33,7 @@ const Navbar = () => {
             >
               <Menu size={24} />
             </button>
-            <h1 className="text-2xl font-bold text-green-600">ZIRATECH</h1>
+            <h1 className="text-2xl font-bold text-green-600">AgroTech</h1>
           </div>
 
           {/* Center Links - Desktop */}
